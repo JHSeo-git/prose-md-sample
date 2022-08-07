@@ -25,7 +25,7 @@ function ItemRoute(props: ItemRouteProps) {
   const Component = useMemo(() => getMDXComponent(item.code), [item.code]);
 
   return (
-    <div className="prose">
+    <div className="prose mx-auto">
       <Component />
     </div>
   );
