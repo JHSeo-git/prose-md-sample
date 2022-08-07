@@ -12,12 +12,12 @@ function Layout({ children }: LayoutProps) {
           <Link to="/" className="btn btn-ghost">
             Home
           </Link>
-          <Link to="/" className="btn btn-ghost">
+          <Link to="/items" className="btn btn-ghost">
             List
           </Link>
         </nav>
       </header>
-      <main className="container mx-auto mt-24 px-4">{children}</main>
+      <main className="container mx-auto py-24 px-4">{children}</main>
     </>
   );
 }
