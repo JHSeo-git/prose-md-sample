@@ -1,6 +1,6 @@
 # prose-md-sample
 
-Sample for prose style using remix
+Sample for prose style using [remix](https://remix.run/)
 
 ## reference repository
 
